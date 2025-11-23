@@ -29,5 +29,4 @@ It is built with a focus on pure logic implementation without external framework
 ## 🤝 Connect
 **Developer:** [HARSHINI]  
 **Education:** B.Tech Computer Science (Cybersecurity)  
-**GitHub:** [HarshiniNissi188141]  
 **LinkedIn:** [https://www.linkedin.com/in/harshini-rachakonda]
