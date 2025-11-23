@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student RPG: Survival Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <div class="stats-panel">
+            <div class="profile">
+                <h2>Player 1</h2>
+                <p class="level-indicator">Level <span id="level">1</span></p>
+            </div>
+            
+            <div class="bar-container">
+                <p>❤️ HP: <span id="hp-text">100</span> / 100</p>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill hp-fill" id="hp-bar"></div>
+                </div>
+            </div>
+
+            <div class="bar-container">
+                <p>⚡ XP: <span id="xp-text">0</span> / <span id="max-xp">100</span></p>
+                <div class="progress-bar-bg">
+                    <div class="progress-bar-fill xp-fill" id="xp-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quest-input">
+            <input type="text" id="taskInput" placeholder="New quest (e.g., Submit assignment)...">
+            <button class="add-btn" onclick="addTask()">Accept Quest</button>
+        </div>
+
+        <div class="quest-log">
+            <h3>Active Quests</h3>
+            <ul id="taskList">
+                </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
